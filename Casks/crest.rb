@@ -3,9 +3,9 @@
 cask "crest" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.16.0"
-  sha256 arm:   "25b8f1ca902e42cf5037cea5db47665d949a78c5549c8edd4f72a5898051d5e1",
-         intel: "2e44c2198b7de06d3f5fd64e672e74a7e9127015f5c98a14851c861a5e568f09"
+  version "0.17.0"
+  sha256 arm:   "0a3577a09e7c0f73d16d98a120e0b1b05b3d53919789b0c75e9ae867d3ab4034",
+         intel: "8f1098e2bba51c04cd029dde2dae79bee4f513daf5a2331f51b587c1751f7402"
 
   url "https://github.com/lazaroMB/crest/releases/download/v#{version}/crest-#{version}-#{arch}-apple-darwin.tar.gz"
   name "crest"
